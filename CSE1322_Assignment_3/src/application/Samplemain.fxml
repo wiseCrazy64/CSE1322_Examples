@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<Pane blendMode="DARKEN" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" style="-fx-background-color: FF7F50;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.sampleController">
+   <children>
+      <Label fx:id="l1" alignment="CENTER" layoutX="-5.0" prefHeight="122.0" prefWidth="647.0" style="-fx-background-color: #51b865;" textFill="#3c2423">
+         <font>
+            <Font size="23.0" />
+         </font></Label>
+      <Button fx:id="button1" blendMode="OVERLAY" layoutY="119.0" mnemonicParsing="false" onAction="#click1" prefHeight="97.0" prefWidth="144.0" text="1" textFill="#2a3624bf">
+         <font>
+            <Font size="30.0" />
+         </font></Button>
+      <Button fx:id="button8" blendMode="OVERLAY" layoutX="143.0" layoutY="313.0" mnemonicParsing="false" onAction="#click8" prefHeight="97.0" prefWidth="142.0" text="8" textFill="#2a3624bf">
+         <font>
+            <Font size="30.0" />
+         </font></Button>
+      <Button fx:id="button3" blendMode="OVERLAY" layoutX="284.0" layoutY="119.0" mnemonicParsing="false" onAction="#click3" prefHeight="97.0" prefWidth="142.0" text="3" textFill="#2a3624bf">
+         <font>
+            <Font size="30.0" />
+         </font></Button>
+      <Button fx:id="button4" blendMode="OVERLAY" layoutY="216.0" mnemonicParsing="false" onAction="#click4" prefHeight="97.0" prefWidth="144.0" text="4" textFill="#2a3624bf">
+         <font>
+            <Font size="30.0" />
+         </font></Button>
+      <Button fx:id="button5" blendMode="OVERLAY" layoutX="143.0" layoutY="216.0" mnemonicParsing="false" onAction="#click5" prefHeight="97.0" prefWidth="142.0" text="5" textFill="#2a3624bf">
+         <font>
+            <Font size="30.0" />
+         </font></Button>
+      <Button fx:id="button2" blendMode="OVERLAY" layoutX="143.0" layoutY="119.0" mnemonicParsing="false" onAction="#click2" prefHeight="97.0" prefWidth="142.0" text="2" textFill="#2a3624bf">
+         <font>
+            <Font size="30.0" />
+         </font></Button>
+      <Button fx:id="button6" blendMode="OVERLAY" layoutX="284.0" layoutY="216.0" mnemonicParsing="false" onAction="#click6" prefHeight="97.0" prefWidth="142.0" text="6" textFill="#2a3624bf">
+         <font>
+            <Font size="30.0" />
+         </font></Button>
+      <Button fx:id="button9" blendMode="OVERLAY" layoutX="284.0" layoutY="313.0" mnemonicParsing="false" onAction="#click9" prefHeight="97.0" prefWidth="142.0" text="9" textFill="#2a3624bf">
+         <font>
+            <Font size="30.0" />
+         </font></Button>
+      <Button fx:id="button7" blendMode="OVERLAY" layoutY="313.0" mnemonicParsing="false" onAction="#click7" prefHeight="97.0" prefWidth="144.0" text="7" textFill="#2a3624bf">
+         <font>
+            <Font size="30.0" />
+         </font></Button>
+      <Button fx:id="buttonDivide" blendMode="OVERLAY" layoutX="530.0" layoutY="216.0" mnemonicParsing="false" onAction="#clickDivide" prefHeight="97.0" prefWidth="110.0" text="/">
+         <font>
+            <Font size="30.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill></Button>
+      <Button fx:id="buttonMultiply" blendMode="OVERLAY" layoutX="425.0" layoutY="216.0" mnemonicParsing="false" onAction="#clickMultiply" prefHeight="97.0" prefWidth="106.0" text="*" textFill="#2a3624bf">
+         <font>
+            <Font size="30.0" />
+         </font></Button>
+      <Button fx:id="buttonMinus" blendMode="OVERLAY" layoutX="530.0" layoutY="119.0" mnemonicParsing="false" onAction="#clickMinus" prefHeight="97.0" prefWidth="110.0" text="-" textFill="#2a3624bf">
+         <font>
+            <Font size="31.0" />
+         </font></Button>
+      <Button fx:id="buttonAdd" blendMode="OVERLAY" layoutX="425.0" layoutY="119.0" mnemonicParsing="false" onAction="#clickAdd" prefHeight="97.0" prefWidth="106.0" text="+" textFill="#2a3624bf">
+         <font>
+            <Font size="30.0" />
+         </font></Button>
+      <Button fx:id="button0" blendMode="OVERLAY" layoutY="410.0" mnemonicParsing="false" onAction="#click0" prefHeight="68.0" prefWidth="426.0" text="0" textFill="#2a3624bf">
+         <font>
+            <Font size="30.0" />
+         </font></Button>
+      <Button fx:id="buttonEqual" blendMode="OVERLAY" layoutX="425.0" layoutY="411.0" mnemonicParsing="false" onAction="#clickEquals" prefHeight="69.0" prefWidth="215.0" text="=" textFill="#2a3624bf">
+         <font>
+            <Font size="30.0" />
+         </font></Button>
+      <Button fx:id="buttonClear" blendMode="OVERLAY" layoutX="425.0" layoutY="313.0" mnemonicParsing="false" onAction="#clickClear" prefHeight="98.0" prefWidth="106.0" text="Clear" textFill="#2a3624bf">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonPower" blendMode="OVERLAY" layoutX="530.0" layoutY="313.0" mnemonicParsing="false" onAction="#clickPower" prefHeight="98.0" prefWidth="110.0" text="OFF" textFill="#192215bf">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="97.0" fitWidth="110.0" layoutX="530.0" layoutY="314.0" mouseTransparent="true" opacity="0.59">
+         <image>
+            <Image url="https://66.media.tumblr.com/42e5f572bff0cb45e031d1740786a73d/tumblr_n6717s1iCh1qfwa93o1_400.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="98.0" fitWidth="106.0" layoutX="425.0" layoutY="314.0" mouseTransparent="true" opacity="0.5">
+         <image>
+            <Image url="https://vignette2.wikia.nocookie.net/blogclan-2/images/2/24/Blue_Eyes_White_Ultimate_Dragon_GIF.gif/revision/latest?cb=20151124231904" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
